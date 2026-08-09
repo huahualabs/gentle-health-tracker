@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "好好照顧自己",
+  "short_name": "照顧自己",
+  "description": "一個溫柔、手機優先的私人健康紀錄工具。資料保存在自己的瀏覽器。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff8f3",
+  "theme_color": "#fff8f3",
+  "lang": "zh-Hant",
+  "icons": [
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"}
+  ]
+}
