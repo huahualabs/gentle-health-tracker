@@ -1,4 +1,4 @@
-const CACHE = 'gentle-health-v4-20260809';
+const CACHE = 'gentle-health-v5-20260809';
 const ASSETS = ['./','./index.html','./style.css','./app.js','./manifest.webmanifest','./apple-touch-icon.png','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting()});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});
